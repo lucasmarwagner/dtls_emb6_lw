@@ -1,0 +1,9 @@
+addons:
+  apt:
+    packages:
+    - libcunit1-dev
+
+sudo: false
+
+script:
+    - make test
